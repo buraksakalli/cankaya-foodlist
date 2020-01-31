@@ -1,0 +1,48 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Çankaya Üniversitesi Yemekhane",
+    "description": "Çankaya Üniversitesi Yemekhane API Service"
+  },
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/date": {
+      "get": {
+        "tags": [
+          "Food List Requests"
+        ],
+        "summary": "Get food list by date (today to last day of month)",
+        "responses": {
+          "200": {
+            "description": "food[]\nor\nmessage: String"
+          },
+          "400": {
+            "description": "Failed"
+          }
+        }
+      }
+    },
+    "/all": {
+      "get": {
+        "tags": [
+          "Food List Requests"
+        ],
+        "summary": "Get all food list",
+        "responses": {
+          "status: true": {
+            "description": "OK"
+          },
+          "status: false": {
+            "description": "Failed"
+          }
+        }
+      }
+    }
+  }
+}
