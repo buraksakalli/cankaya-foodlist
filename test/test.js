@@ -2,8 +2,8 @@ const expect = require('chai').expect;
 const request = require('request');
 
 const url = {
-  date: 'http://localhost:3001/date',
-  all: 'http://localhost:3001/all'
+  date: 'https://cankaya-food.herokuapp.com/date',
+  all: 'https://cankaya-food.herokuapp.com/all'
 }
 
 describe("Date API", () => {

@@ -13,3 +13,9 @@ exports.list_monthly = (req, res) => {
     res.send(food);
   });
 };
+
+exports.hello_world = (req, res) => {
+  res.json({
+    "message": "Welcome to the Cankaya University API"
+  })
+};

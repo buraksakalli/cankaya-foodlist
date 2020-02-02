@@ -25,7 +25,10 @@ node app.js
 Then change the `.env.example` to `.env` and change `mongoURI` with your Mongo URI like inside it.
 
 - The model of Collection is indicated in `/app/models/food.js`
-- In `/docs` you can reach swagger.
+- In `/docs` you can reach swagger or see on <a href="https://cankaya-food.herokuapp.com/docs">heroku</a>
+
+## Demo
+<a href="https://cankaya-food.herokuapp.com">Heroku</a>
 
 ## Contributing
 

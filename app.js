@@ -8,7 +8,7 @@ const swaggerDocument = require('./swagger.json');
 const express = require('express'),
   app = express(),
   bodyParser = require('body-parser'),
-  port = process.env.port || 3001;
+  port = process.env.PORT || 3001;
 
 app.use(cors({ credentials: true }));
 app.use(bodyParser.urlencoded({ extended: true }));

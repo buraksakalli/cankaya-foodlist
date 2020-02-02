@@ -3,6 +3,10 @@
 const FoodSchema = require('./food');
 const getDate = require('../utils/Dates');
 
+const message = {
+  "message": "Yemek listesi henüz yayınlanmamıştır."
+}
+
 const Food = (food) => {
   this.food = food.food;
   this.kcal = food.kcal;
@@ -25,9 +29,6 @@ Food.getFoodByDate = (result) => {
       if (docs.length > 0) {
         result(null, docs)
       } else {
-        const message = {
-          "message": process.env.message
-        }
         result(null, message);
       }
     })
