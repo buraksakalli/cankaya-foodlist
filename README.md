@@ -4,6 +4,7 @@
 <p>Cankaya University Dining Hall Food List API developed with Node.JS and MongoDB.</p>
 
 [![Build Status](https://travis-ci.com/buraksakalli/cankaya-foodlist.svg?branch=master)](https://travis-ci.com/buraksakalli/cankaya-foodlist)
+[![DeepScan grade](https://deepscan.io/api/teams/7308/projects/9427/branches/122783/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=7308&pid=9427&bid=122783)
 <img src="https://api.netlify.com/api/v1/badges/091ff151-1ff8-40ce-8ae4-f52ef0eca90d/deploy-status">
 
 
